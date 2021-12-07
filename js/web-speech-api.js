@@ -3,7 +3,7 @@ var messages = {
     msg: 'Klik microphone untuk memulai.',
     class: 'alert-success'},
   "speak_now": {
-    msg: 'Speak now.',
+    msg: 'Berbicara Sekarang.',
     class: 'alert-success'},
   "no_speech": {
     msg: 'Tidak ada ucapan yang dideteksi. silahkan kunjung link berikut untuk memperbaiki <a href="//support.google.com/chrome/answer/2693767" target="_blank">microphone settings</a>.',
@@ -15,16 +15,16 @@ var messages = {
     msg: 'Click the "Allow" button above to enable your microphone.',
     class: 'alert-warning'},
   "denied": {
-    msg: 'Permission to use microphone was denied.',
+    msg: 'Microphone tidak dizinkan.',
     class: 'alert-danger'},
   "blocked": {
     msg: 'Permission to use microphone is blocked. To change, go to chrome://settings/content/microphone',
     class: 'alert-danger'},
   "upgrade": {
-    msg: 'Web Speech API is not supported by this browser. It is only supported by <a href="//www.google.com/chrome">Chrome</a> version 25 or later on desktop and Android mobile.',
+    msg: 'Speech To Text is not supported by this browser. It is only supported by <a href="//www.google.com/chrome">Chrome</a> version 25 or later on desktop and Android mobile.',
     class: 'alert-danger'},
   "stop": {
-      msg: 'Stop listening, click on the microphone icon to restart',
+      msg: 'Berhenti merekam, klik pada microphone untuk memulai kembali',
       class: 'alert-success'},
 
 }
